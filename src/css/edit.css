@@ -1,0 +1,35 @@
+	#jane-edit{
+				width: 100%;
+				height: 100%;
+			}
+			.edit-content{
+				display: flex;
+				width: 100%;
+				height: 100%;
+				flex-flow: row;
+
+			}
+
+			.edit_layout{
+				width: 50%;
+				overflow: hidden;
+				height: 100%;
+
+			}
+
+			.preview_layout{
+				width: 50%;
+				height: 100%;
+			}
+
+			.edit{
+				width: 100%;
+				height: 100%;
+				padding: 10px;
+				box-sizing: border-box;
+			}
+			.preview{
+				overflow: auto;
+				width: 100%;
+				height: 100%;
+			}
