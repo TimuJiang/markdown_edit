@@ -26,7 +26,7 @@ var MdEdit = (function(){
 					'</div>';
 
 	var popupTemplate = '<div class="popup-box">'+
-                        '<div class="popup-position" style="display: table-cell;vertical-align: middle;text-align: center">'+
+                        '<div class="popup-position" style="">'+
                             '<div class="popup" style="">'+
                                 '<div class="popup-title" style="">'+
                                     '<span class="close" style=""></span>'+
@@ -50,7 +50,6 @@ var MdEdit = (function(){
         pointerEvents: "none",
         backgroundColor: "rgba(0,0,0,.733)",
         zIndex:"9999"
-
     }
 
 
@@ -92,7 +91,7 @@ var MdEdit = (function(){
 	 var _addMask = function(){
 	 	var $mask = $('<div id="mask" class="mask"></div>');
         $mask.css(maskStyle);
-         $(".edit_layout").append($mask);
+        $(".edit_layout").append($mask);
     }
 
 	return {
